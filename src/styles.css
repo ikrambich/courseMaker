@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+  background-color: #f8f9fa; /* Light background color for the main page */
+}
+
+.sidebar {
+  width: 250px;
+  background-color: white; /* White background color for the sidebar */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a slight shadow for better distinction */
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 200px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+p {
+  font-size: 14px;
+  color: gray;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.menu li {
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: black; /* Ensure text color is black */
+}
+
+.menu li span:first-child {
+  margin-right: 10px; /* Add space between icon and text */
+}
+
+.menu li:hover,
+.menu li.active {
+  background-color: #ffa500;
+  color: white;
+  border-radius: 5px;
+}
+
+.go-pro {
+  margin-top: auto;
+  background-color: #ffa500;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 10px;
+  width: 90%; /* Adjust the width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.go-pro:hover {
+  background-color: #e59400;
+}
+
+.go-pro span {
+  font-size: 16px;
+  display: block;
+}
+
+.go-pro span[role="img"] {
+  font-size: 24px; /* Adjust icon size */
+  margin-bottom: 5px; /* Add some space between the icon and the text */
+}
+
+.go-pro .upgrade-now {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 5px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style:normal;
+}
+
+
+
