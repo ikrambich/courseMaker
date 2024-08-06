@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/courseMaker/static/css/main.169102e5.css",
+    "main.js": "/courseMaker/static/js/main.83946ee0.js",
+    "index.html": "/courseMaker/index.html",
+    "main.169102e5.css.map": "/courseMaker/static/css/main.169102e5.css.map",
+    "main.83946ee0.js.map": "/courseMaker/static/js/main.83946ee0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.169102e5.css",
+    "static/js/main.83946ee0.js"
+  ]
+}
